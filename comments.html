@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Author: Ahmad, Field: Computer IT" />
+    <!-- Google fonts -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    /> -->
+    <!-- Custom styles -->
+    <link rel="stylesheet" href="./websystems.css" />
+    <title>Comment page | Web Systems</title>
+  </head>
+  <body>
+    <header class="header">
+      <div id="logo">
+        <h1><a href="./index.html">Web Systems</a></h1>
+      </div>
+      <nav class="navigation">
+        <ul class="nav-items-wrapper">
+          <li class="nav-item"><a href="./index.html">Home</a></li>
+          <li class="nav-item"><a href="./past.html">Past</a></li>
+          <li class="nav-item"><a href="./future.html">Future</a></li>
+          <li class="nav-item active">
+            <a href="./comments.html">Comments</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main container">
+      <article>
+        <h2 class="pb-2">Comments</h2>
+        <p>
+          This page contains some comments regarding the technical, aethstetic
+          and accessibility elements of this website. All of these elements are
+          essential to the creation of a professional and usable site.
+        </p>
+      </article>
+
+      <!-- Comments -->
+      <article class="comments pt-4">
+        <h2 class="pb-1">Technical</h2>
+        <p>
+          This website was designed to specification as outlined on
+          <a
+            href="https://canvas.uts.edu.au/courses/22037/modules/items/817617"
+            target="_blank"
+            class="link-to-web"
+          >
+            Canvas
+          </a>
+        </p>
+        <p>
+          The website contains four html pages with one css and images folder
+          which contains image files. The below table is generated demonstrate
+          the structure of the website.
+        </p>
+
+        <table class="table">
+          <!-- table head -->
+          <thead>
+            <tr>
+              <th>File Names</th>
+              <th>File Type</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <!-- table body -->
+          <tbody>
+            <tr>
+              <td>index.html</td>
+              <td>HTML file</td>
+              <td>This is the main page of the website</td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td>past.html</td>
+              <td>HTML file</td>
+              <td>This page is about my past</td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td>future.html</td>
+              <td>HTML file</td>
+              <td>This page is about my future</td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td>comments.html</td>
+              <td>HTML file</td>
+              <td>This page contains website documentations and overview</td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td>styles.css</td>
+              <td>CSS file</td>
+              <td>website css styling file</td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td>images</td>
+              <td>folder file</td>
+              <td>contains images files</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <!-- Css config -->
+
+      <article class="comments pt-6">
+        <p>
+          The table below contains all CSS classes and IDs used within our
+          website with their purpose.
+        </p>
+
+        <table class="table">
+          <!-- table head -->
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Type</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <!-- table body -->
+          <tbody>
+            <tr>
+              <td>Body</td>
+              <td>Element</td>
+              <td>
+                This tag wrap all our contents in the page, this contains font
+                family of Open Sans, Background color and much more stylings.
+              </td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td>.Header #logo</td>
+              <td>Class</td>
+              <td>
+                Header tag is used with class of <code>.header</code> that wraps
+                our navigation also with logo of the site, this ensures for
+                better accessibility and SEO.
+              </td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td>.Nav .nav-item</td>
+              <td>Class</td>
+              <td>
+                This tag contains all nav items which links to another pages,
+                this has child element such as <code>ul, li</code> which are
+                used to for linking between pages with the use of link tag
+              </td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td>Main</td>
+              <td>Element</td>
+              <td>
+                This tag sits beneath the header which wraps all the content,
+                unlike body tag which wrap around all content, this only wrap
+                the main content of our page.
+              </td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td>Article</td>
+              <td>Element</td>
+              <td>
+                This tags acts as a block of sections within our page, this
+                holds different contents within itself, this is similar to
+                section tag.
+              </td>
+            </tr>
+          </tbody>
+
+          <tbody>
+            <tr>
+              <td>H1 - H6</td>
+              <td>Element</td>
+              <td>
+                Throughout the website this headings tags are used from part to
+                part that helps with readability and SEO
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>Footer</td>
+              <td>Class</td>
+              <td>
+                As the name suggest this tag wrap all our footer contents.
+              </td>
+            </tr>
+          </tbody>
+          <tbody>
+            <tr>
+              <td>#footer-date, span</td>
+              <td>ID</td>
+              <td>
+                The use of ID and span tag for inserting the year date at the
+                footer of website.
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+
+      <!-- Webpage -->
+
+      <h3 class="pt-4">Webpages structure</h3>
+      <p class="pb-2">
+        Across the website there are different usages of semantic HTML that have
+        structured our website, not just for accessibility in mind but for
+        better SEO and overall experience.
+      </p>
+
+      <article class="with-image">
+        <div>
+          <img
+            src="./images/structure.png"
+            width="380"
+            height="480"
+            alt="HTML stucture image"
+          />
+        </div>
+        <div>
+          <div class="pt-2">
+            <h4><code>Header</code></h4>
+            <p>
+              The header contains the website title "Web Systems". The website
+              title is written using the h1 tag, and its properties are defined
+              by the <code>header</code> class in the CSS file. Each pages have
+              a <code>header</code> tag which wraps our logo and navigation, the
+              navigation's links are <code>link</code> tags, which redirect us
+              to different pages.
+            </p>
+          </div>
+
+          <div class="pt-2">
+            <h4><code>Main</code></h4>
+            <p>
+              The <code>main</code> tag is what wraps our content of the page
+              and this contains all sections to divs into the span of our
+              contents. Some images are also contained within their own divs to
+              be moved other positions using CSS.
+            </p>
+          </div>
+
+          <div class="pt-2">
+            <h4><code>Footer</code></h4>
+            <p>
+              As the name suggest <code>footer</code> is used to display footer
+              related contents - store extra information which users will always
+              be able to find them.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <!-- With image -->
+
+      <h2 class="pt-6 pb-2">Aesthetics</h2>
+      <p>
+        The wbsites aethstetics are designed to be appealing, yet clear and easy
+        to navigate and read. Here are some points outlining some of the
+        aethstetical features of the website.
+      </p>
+      <ul class="bullet-outside-list pl-3 pt-1">
+        <li>
+          Page heading are bold to avoid confusion and a horizontal rule is used
+          to make the content heading stand out from the actual page
+          information.
+        </li>
+        <li>
+          Padding has been used inside the main content container, between
+          images and text, and inside tables to page the website look less
+          cluttered.
+        </li>
+        <li>
+          Empty space on the sides, space on both top and bottom of the page
+          have been added to make the page look more presentable and clean.
+        </li>
+      </ul>
+
+      <article class="with-image">
+        <div>
+          <div class="pb-2 pt-2">
+            <h3>
+              Website Performances / Accessibility / Color Contrast review
+            </h3>
+            <p>
+              While conducting and auditing the website we've put far more
+              interest into accessibility, SEO and experience of the site. we're
+              surprise by the result we've got as provide in the image.
+              <strong
+                >Images speaks 1000 words so no need to explain when scores are
+                100!</strong
+              >
+            </p>
+          </div>
+          <div class="pb-1 pt-1">
+            <h4>Fonts</h4>
+            <p>
+              We've made the use of google fonts <strong>Open Sans</strong> for
+              better readability and user experience. Furthermore we've a
+              fallback font which is <strong>sans-serif</strong> if the first
+              font is not loaded the site will fallback to using the default,
+              Aside from using google fonts we've used variable font sizing,
+              fairly new CSS function <code>clamp</code> which allows us to have
+              variable font sizing, This ensures users will have better reading
+              experience.
+            </p>
+          </div>
+          <div class="pb-1 pt-1">
+            <h4>Animations / Interactivity</h4>
+            <p>
+              The nav links uses micro animation which indicates which pages
+              user is on and helps users while hovering on them, this helps and
+              engages user to explore our site more.
+            </p>
+          </div>
+
+          <div class="pb-1 pt-1">
+            <h4>Structure</h4>
+            <p>
+              The structure of the website has been laid out vertically. This
+              provides the user with a cleaner layout than with a navigation
+              sidebar or using a two column layout, and makes the content in
+              front of them stand out better. It also makes viewing the website
+              on a mobile device much easier due to the extra horizontal screen
+              real estate.
+            </p>
+          </div>
+        </div>
+
+        <div>
+          <img
+            src="./images/seo.png"
+            width="380"
+            height="480"
+            alt="Accessibility and SEO auditing image"
+            class="pt-6"
+          />
+        </div>
+      </article>
+
+      <!-- accessibility -->
+
+      <h2 class="pt-6">Accessibility</h2>
+      <article class="pb-3 pt-1">
+        <p>
+          This website has been designed to be assessible to page users as
+          possible. Here are some points outlining some of the features that
+          make this website more readily accessible.
+        </p>
+        <ul class="bullet-outside-list pl-3 pt-1">
+          <li>
+            The pages are W3C validated, with no errors or any warnings. W3C
+            validation has many enduring advantages, such as extending the
+            lifespan of the website pages, maintaining browser compatibility,
+            search engine performance, device compliance and much more.
+          </li>
+          <li>
+            the "alt" attribute has been set on all images to give users with
+            visual impairments a general idea of what the image is about without
+            actually having to see the image.
+          </li>
+          <li>
+            The text used on the web page contrasts highly with the background
+            colour, which also makes it easier for user to read the information
+            on the page. The page title is large and the menu items are clear
+            and succinct on the page.
+          </li>
+          <li class="pb-1">
+            Relative font sizes are used for all textual elements of the page,
+            so that the users may freely resize the text on their browser using
+            their cleints zoom controls.
+          </li>
+        </ul>
+      </article>
+
+      <!-- With image -->
+      <article class="with-image">
+        <div>
+          <img
+            src="./images/css.png"
+            width="380"
+            height="480"
+            alt="responsive design image"
+          />
+        </div>
+        <div>
+          <div class="pb-1 pt-1">
+            <h3>User Interfaces / Responsive design</h3>
+            <p>
+              Throughout our site we've used many techniques to ensure
+              consistency, we've made the use of CSS variable to store all
+              colors used throughout the website, this helps with consistency of
+              design and reduce amount of duplicate code.
+            </p>
+          </div>
+          <div class="pb-1 pt-1">
+            <h3>Spacing</h3>
+            <p>
+              To keep the spacing in this design consistent and boost our
+              development, we've created pre defined classes spacing, this not
+              only helps us in early stage of designing but long term this
+              reduces code duplication.
+            </p>
+          </div>
+
+          <div class="pb-1 pt-1">
+            <h3>Responsiveness</h3>
+            <p>
+              We've kept the website structure simple and adjusted website in
+              mobile to make it responsive for better user experience.
+            </p>
+          </div>
+
+          <div class="pb-9 pt-1">
+            <h3>Colour Contrast</h3>
+            <p>
+              Particular attention has been paid to colour contrast when
+              designing the aesthetics of the website. Colour combinations that
+              do not strain the eye are used throughout the website. The website
+              has been tested for color contrast using
+              <a
+                href="https://coolors.co/contrast-checker/112a46-acc8e5"
+                target="_blank"
+                class="link-to-web"
+              >
+                Coolors </a
+              >, with successful results.
+            </p>
+          </div>
+        </div>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content-wrapper">
+        <div class="footer-content">
+          <div>
+            <p>
+              Website By Ahmad &copy; 2022
+              <span id="footer-date"></span>
+            </p>
+          </div>
+          <div>
+            <p>
+              <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                <img
+                  src="http://jigsaw.w3.org/css-validator/images/vcss"
+                  alt="Valid
+              CSS!"
+                  width="88px"
+                  height="31px"
+                />
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
