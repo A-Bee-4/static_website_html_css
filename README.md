@@ -8,6 +8,7 @@ You will create a webpage about yourself that must adhere to the requirements be
 Your website will have 4 pages and 1 CSS file.
 Any other files, such as photos (jpg, png, etc.), should be in the websystems directory. To keep things organized, they might also be in subdirectories, like websystems/images.
 Your website needs to function without Javascript and even with CSS turned off.
+You MUST check the validation of your website at http://validator.w3.org/ and your style sheet at http://jigsaw.w3.org/css-validator/.
 
 ## Home page
 
